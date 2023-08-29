@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      target: development
+    image: node-docker:dev
+    container_name: node-docker
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    environment:
+      - VIRTUAL_HOST=node-docker.localhost
+      - VIRTUAL_PORT=3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+      - vscode-extensions-node-docker:/root/.vscode-server/extensions
+volumes:
+  vscode-extensions-node-docker:
+networks:
+  proxy:
+    external: true
+    name: proxy_net
+
