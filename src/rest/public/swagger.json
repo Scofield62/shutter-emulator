@@ -1,0 +1,324 @@
+{
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {
+			"Shutter": {
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"deviceId": {
+						"type": "string"
+					},
+					"ipAddress": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"name",
+					"deviceId",
+					"ipAddress"
+				],
+				"type": "object",
+				"additionalProperties": false
+			},
+			"ShutterDeviceSchema": {
+				"properties": {
+					"ipAddress": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"ipAddress",
+					"name",
+					"id"
+				],
+				"type": "object"
+			}
+		},
+		"securitySchemes": {}
+	},
+	"info": {
+		"title": ""
+	},
+	"openapi": "3.0.0",
+	"paths": {
+		"/device": {
+			"get": {
+				"operationId": "GetShutterDevices",
+				"responses": {
+					"200": {
+						"description": "List of devices",
+						"content": {
+							"application/json": {
+								"schema": {
+									"items": {
+										"$ref": "#/components/schemas/Shutter"
+									},
+									"type": "array"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "No devices found"
+					}
+				},
+				"tags": [
+					"Device"
+				],
+				"security": [],
+				"parameters": []
+			}
+		},
+		"/device/{id}": {
+			"get": {
+				"operationId": "GetShutterDevice",
+				"responses": {
+					"200": {
+						"description": "Get device by ID",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Shutter"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "No devices found"
+					}
+				},
+				"tags": [
+					"Device"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "id",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				]
+			}
+		},
+		"/device/add": {
+			"post": {
+				"operationId": "AddShutterDevice",
+				"responses": {
+					"201": {
+						"description": "Device created"
+					},
+					"500": {
+						"description": "Internal server error"
+					}
+				},
+				"tags": [
+					"Device"
+				],
+				"security": [],
+				"parameters": [],
+				"requestBody": {
+					"required": true,
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/ShutterDeviceSchema"
+							}
+						}
+					}
+				}
+			}
+		},
+		"/device/remove/{id}": {
+			"get": {
+				"operationId": "RemoveShutterDevice",
+				"responses": {
+					"200": {
+						"description": "Device removed"
+					},
+					"404": {
+						"description": "Device not found"
+					}
+				},
+				"tags": [
+					"Device"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "id",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				]
+			}
+		},
+		"/operation/open/{deviceId}": {
+			"get": {
+				"operationId": "Open",
+				"responses": {
+					"200": {
+						"description": "Device is opening...",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Shutter"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Device not found"
+					}
+				},
+				"tags": [
+					"Device operations"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "deviceId",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				]
+			}
+		},
+		"/operation/close/{deviceId}": {
+			"get": {
+				"operationId": "Close",
+				"responses": {
+					"200": {
+						"description": "Device is closing...",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Shutter"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Device not found"
+					}
+				},
+				"tags": [
+					"Device operations"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "deviceId",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				]
+			}
+		},
+		"/operation/stop/{deviceId}": {
+			"get": {
+				"operationId": "Stop",
+				"responses": {
+					"200": {
+						"description": "Device has been stopped...",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Shutter"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Device not found"
+					}
+				},
+				"tags": [
+					"Device operations"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "deviceId",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				]
+			}
+		},
+		"/operation/setTargetPosition/{deviceId}/{targetPosition}": {
+			"get": {
+				"operationId": "SetTargetPosition",
+				"responses": {
+					"200": {
+						"description": "Device has been set to position",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Shutter"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "Device not found"
+					}
+				},
+				"tags": [
+					"Device operations"
+				],
+				"security": [],
+				"parameters": [
+					{
+						"in": "path",
+						"name": "deviceId",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					},
+					{
+						"in": "path",
+						"name": "targetPosition",
+						"required": true,
+						"schema": {
+							"format": "double",
+							"type": "number"
+						}
+					}
+				]
+			}
+		}
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}

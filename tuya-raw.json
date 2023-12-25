@@ -1,0 +1,619 @@
+{
+    "result": [
+        {
+            "active_time": 1670415195,
+            "biz_type": 18,
+            "category": "dd",
+            "create_time": 1670415195,
+            "icon": "smart/icon/ay1569550594370mmXuc/224460f8e1bd0b5af4b31380d3d130f0.png",
+            "id": "bfdbc69398d9b82cb5x32u",
+            "ip": "84.236.72.86",
+            "lat": "47.5500",
+            "local_key": "711bb0f3b1ade519",
+            "lon": "19.0900",
+            "model": "\u6d82\u9e26\u5355\u8defir",
+            "name": "Konyha led",
+            "online": true,
+            "owner_id": "63208045",
+            "product_id": "yqiwtf70eveowdcm",
+            "product_name": "TY-02-1CH",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": false
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value",
+                    "value": 31
+                },
+                {
+                    "code": "scene_data",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":1000,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "+01:00",
+            "uid": "eu1660120183819Od7NN",
+            "update_time": 1698735297,
+            "uuid": "75efcfb2c246891d",
+            "category_name": "Strip Lights",
+            "gateway_id": "",
+            "mapping": {
+                "20": {
+                    "code": "switch_led",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "21": {
+                    "code": "work_mode",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "white",
+                            "colour",
+                            "scene",
+                            "music"
+                        ]
+                    }
+                },
+                "22": {
+                    "code": "bright_value",
+                    "type": "Integer",
+                    "values": {
+                        "min": 10,
+                        "max": 1000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "25": {
+                    "code": "scene_data",
+                    "type": "Json",
+                    "raw_values": "{\"scene_num\":{\"min\":1,\"scale\":0,\"max\":8,\"step\":1},\"scene_units\": {\"unit_change_mode\":{\"range\":[\"static\",\"jump\",\"gradient\"]},\"unit_switch_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"unit_gradient_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"bright\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"temperature\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}}",
+                    "values": {
+                        "scene_num": {
+                            "min": 1,
+                            "scale": 0,
+                            "max": 8,
+                            "step": 1
+                        },
+                        "scene_units": {
+                            "unit_change_mode": {
+                                "range": [
+                                    "static",
+                                    "jump",
+                                    "gradient"
+                                ]
+                            },
+                            "unit_switch_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "unit_gradient_duration": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 100,
+                                "step": 1
+                            },
+                            "bright": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "temperature": {
+                                "min": 0,
+                                "scale": 0,
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "h": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 360,
+                                "step": 1
+                            },
+                            "s": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            },
+                            "v": {
+                                "min": 0,
+                                "scale": 0,
+                                "unit": "",
+                                "max": 1000,
+                                "step": 1
+                            }
+                        }
+                    }
+                },
+                "26": {
+                    "code": "countdown",
+                    "type": "Integer",
+                    "values": {
+                        "min": 0,
+                        "max": 86400,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "28": {
+                    "code": "control_data",
+                    "type": "Json",
+                    "raw_values": "{\"change_mode\":{\"range\":[\"direct\",\"gradient\"]}, \"bright\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"temperature\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                    "values": {
+                        "change_mode": {
+                            "range": [
+                                "direct",
+                                "gradient"
+                            ]
+                        },
+                        "bright": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "temperature": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 255,
+                            "step": 1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1692281970,
+            "biz_type": 18,
+            "category": "cl",
+            "create_time": 1692281970,
+            "icon": "smart/icon/ay1539067139613uuCdF/f855302355a71ec22b0fb427f589d379.jpg",
+            "id": "bf823bc06c4ff86edd7nbt",
+            "ip": "84.236.77.18",
+            "lat": "47.5500",
+            "local_key": "F*}.1j-rB_?^9.y[",
+            "lon": "19.0900",
+            "model": "FT35EWB22",
+            "name": "Nappali 2",
+            "online": true,
+            "owner_id": "63208045",
+            "product_id": "iznuapjmqurazh7m",
+            "product_name": "\u5377\u5e18",
+            "status": [
+                {
+                    "code": "control",
+                    "value": "open"
+                },
+                {
+                    "code": "percent_control",
+                    "value": 0
+                },
+                {
+                    "code": "percent_state",
+                    "value": 0
+                },
+                {
+                    "code": "control_back_mode",
+                    "value": "forward"
+                },
+                {
+                    "code": "fault",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "+02:00",
+            "uid": "eu1660120183819Od7NN",
+            "update_time": 1698649937,
+            "uuid": "00552b52f1e2a7a2",
+            "category_name": "Curtain",
+            "gateway_id": "",
+            "mapping": {
+                "1": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close",
+                            "continue"
+                        ]
+                    }
+                },
+                "2": {
+                    "code": "percent_control",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "%",
+                        "min": 0,
+                        "max": 100,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "3": {
+                    "code": "percent_state",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "%",
+                        "min": 0,
+                        "max": 100,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "5": {
+                    "code": "control_back_mode",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "forward",
+                            "back"
+                        ]
+                    }
+                },
+                "12": {
+                    "code": "fault",
+                    "type": "Bitmap",
+                    "values": {
+                        "label": [
+                            "motor_fault"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1660122195,
+            "biz_type": 18,
+            "category": "cl",
+            "create_time": 1660122195,
+            "icon": "smart/icon/1537507857vjojjf6bn_0.jpg",
+            "id": "50264471483fda1a3e44",
+            "ip": "91.82.61.1",
+            "lat": "47.5500",
+            "local_key": "ef0f57d78e691d24",
+            "lon": "19.0900",
+            "model": "FT35EW",
+            "name": "H\u00e1l\u00f3szoba",
+            "online": true,
+            "owner_id": "63208045",
+            "product_id": "hG8tA80YAj0YyxWP",
+            "product_name": "\u7535\u52a8\u5377\u5e18",
+            "status": [
+                {
+                    "code": "percent_state",
+                    "value": 39
+                },
+                {
+                    "code": "control_back",
+                    "value": true
+                }
+            ],
+            "sub": false,
+            "time_zone": "+01:00",
+            "uid": "eu1660120183819Od7NN",
+            "update_time": 1698649936,
+            "uuid": "50264471483fda1a3e44",
+            "category_name": "Curtain",
+            "gateway_id": "",
+            "mapping": {
+                "control": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                },
+                "107": {
+                    "code": "control_back",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "102": {
+                    "code": "percent_state",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "%",
+                        "min": 0,
+                        "max": 100,
+                        "scale": 1,
+                        "step": 1
+                    }
+                },
+                "101": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1660120477,
+            "biz_type": 18,
+            "category": "cl",
+            "create_time": 1660120477,
+            "icon": "smart/icon/1537507857vjojjf6bn_0.jpg",
+            "id": "8418473734ab9516a360",
+            "ip": "91.82.61.1",
+            "lat": "47.5500",
+            "local_key": "c06045916d938216",
+            "lon": "19.0900",
+            "model": "FT35EW",
+            "name": "Nappali 1",
+            "online": true,
+            "owner_id": "63208045",
+            "product_id": "hG8tA80YAj0YyxWP",
+            "product_name": "\u7535\u52a8\u5377\u5e18",
+            "status": [
+                {
+                    "code": "percent_state",
+                    "value": 74
+                },
+                {
+                    "code": "control_back",
+                    "value": false
+                }
+            ],
+            "sub": false,
+            "time_zone": "+01:00",
+            "uid": "eu1660120183819Od7NN",
+            "update_time": 1698649936,
+            "uuid": "8418473734ab9516a360",
+            "category_name": "Curtain",
+            "gateway_id": "",
+            "mapping": {
+                "control": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                },
+                "107": {
+                    "code": "control_back",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "102": {
+                    "code": "percent_state",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "%",
+                        "min": 0,
+                        "max": 100,
+                        "scale": 1,
+                        "step": 1
+                    }
+                },
+                "101": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1660120477,
+            "biz_type": 18,
+            "category": "cl",
+            "create_time": 1660120477,
+            "icon": "smart/icon/1537507857vjojjf6bn_0.jpg",
+            "id": "8418473734ab95163fff",
+            "ip": "91.82.61.1",
+            "lat": "47.5543",
+            "local_key": "540e57f6c8c1aa25",
+            "lon": "19.0895",
+            "model": "FT35EW",
+            "name": "Cucek szoba",
+            "online": true,
+            "owner_id": "63208045",
+            "product_id": "hG8tA80YAj0YyxWP",
+            "product_name": "\u7535\u52a8\u5377\u5e18",
+            "status": [
+                {
+                    "code": "percent_state",
+                    "value": 73
+                },
+                {
+                    "code": "control_back",
+                    "value": true
+                }
+            ],
+            "sub": false,
+            "time_zone": "+01:00",
+            "uid": "eu1660120183819Od7NN",
+            "update_time": 1698297740,
+            "uuid": "8418473734ab95163fff",
+            "category_name": "Curtain",
+            "gateway_id": "",
+            "mapping": {
+                "control": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                },
+                "107": {
+                    "code": "control_back",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "102": {
+                    "code": "percent_state",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "%",
+                        "min": 0,
+                        "max": 100,
+                        "scale": 1,
+                        "step": 1
+                    }
+                },
+                "101": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "active_time": 1660120478,
+            "biz_type": 18,
+            "category": "cl",
+            "create_time": 1660120478,
+            "icon": "smart/icon/1537507857vjojjf6bn_0.jpg",
+            "id": "8418473734ab9516a718",
+            "ip": "91.82.61.1",
+            "lat": "47.5543",
+            "local_key": "f51593aa4dea6bcb",
+            "lon": "19.0895",
+            "model": "FT35EW",
+            "name": "Nappali 3",
+            "online": true,
+            "owner_id": "63208045",
+            "product_id": "hG8tA80YAj0YyxWP",
+            "product_name": "\u7535\u52a8\u5377\u5e18",
+            "status": [
+                {
+                    "code": "percent_state",
+                    "value": 0
+                },
+                {
+                    "code": "control_back",
+                    "value": false
+                }
+            ],
+            "sub": false,
+            "time_zone": "+01:00",
+            "uid": "eu1660120183819Od7NN",
+            "update_time": 1698156522,
+            "uuid": "8418473734ab9516a718",
+            "category_name": "Curtain",
+            "gateway_id": "",
+            "mapping": {
+                "control": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                },
+                "107": {
+                    "code": "control_back",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "102": {
+                    "code": "percent_state",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "%",
+                        "min": 0,
+                        "max": 100,
+                        "scale": 1,
+                        "step": 1
+                    }
+                },
+                "101": {
+                    "code": "control",
+                    "type": "Enum",
+                    "values": {
+                        "range": [
+                            "open",
+                            "stop",
+                            "close"
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "success": true,
+    "t": 1698752551567,
+    "tid": "9354298777e211ee837e2261b7a5ced3",
+    "fetches": 1,
+    "total": 6,
+    "file": {
+        "name": "tuya-raw.json",
+        "description": "Full raw list of Tuya devices.",
+        "account": "f7aukmrd7mpvsdpj3mn4",
+        "date": "2023-10-31T12:42:33.174896",
+        "tinytuya": "1.12.11"
+    }
+}

@@ -1,0 +1,473 @@
+[
+    {
+        "name": "Konyha led",
+        "id": "bfdbc69398d9b82cb5x32u",
+        "key": "711bb0f3b1ade519",
+        "mac": "10:d5:61:38:65:23",
+        "uuid": "75efcfb2c246891d",
+        "sn": "100028084006AD",
+        "category": "dd",
+        "product_name": "TY-02-1CH",
+        "product_id": "yqiwtf70eveowdcm",
+        "biz_type": 18,
+        "model": "\u6d82\u9e26\u5355\u8defir",
+        "sub": false,
+        "icon": "https://images.tuyaeu.com/smart/icon/ay1569550594370mmXuc/224460f8e1bd0b5af4b31380d3d130f0.png",
+        "mapping": {
+            "20": {
+                "code": "switch_led",
+                "type": "Boolean",
+                "values": {}
+            },
+            "21": {
+                "code": "work_mode",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "white",
+                        "colour",
+                        "scene",
+                        "music"
+                    ]
+                }
+            },
+            "22": {
+                "code": "bright_value",
+                "type": "Integer",
+                "values": {
+                    "min": 10,
+                    "max": 1000,
+                    "scale": 0,
+                    "step": 1
+                }
+            },
+            "25": {
+                "code": "scene_data",
+                "type": "Json",
+                "raw_values": "{\"scene_num\":{\"min\":1,\"scale\":0,\"max\":8,\"step\":1},\"scene_units\": {\"unit_change_mode\":{\"range\":[\"static\",\"jump\",\"gradient\"]},\"unit_switch_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"unit_gradient_duration\":{\"min\":0,\"scale\":0,\"max\":100,\"step\":1},\"bright\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"temperature\":{\"min\":0,\"scale\":0,\"max\":1000,\"step\":1},\"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}}}",
+                "values": {
+                    "scene_num": {
+                        "min": 1,
+                        "scale": 0,
+                        "max": 8,
+                        "step": 1
+                    },
+                    "scene_units": {
+                        "unit_change_mode": {
+                            "range": [
+                                "static",
+                                "jump",
+                                "gradient"
+                            ]
+                        },
+                        "unit_switch_duration": {
+                            "min": 0,
+                            "scale": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        "unit_gradient_duration": {
+                            "min": 0,
+                            "scale": 0,
+                            "max": 100,
+                            "step": 1
+                        },
+                        "bright": {
+                            "min": 0,
+                            "scale": 0,
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "temperature": {
+                            "min": 0,
+                            "scale": 0,
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "h": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 360,
+                            "step": 1
+                        },
+                        "s": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        },
+                        "v": {
+                            "min": 0,
+                            "scale": 0,
+                            "unit": "",
+                            "max": 1000,
+                            "step": 1
+                        }
+                    }
+                }
+            },
+            "26": {
+                "code": "countdown",
+                "type": "Integer",
+                "values": {
+                    "min": 0,
+                    "max": 86400,
+                    "scale": 0,
+                    "step": 1
+                }
+            },
+            "28": {
+                "code": "control_data",
+                "type": "Json",
+                "raw_values": "{\"change_mode\":{\"range\":[\"direct\",\"gradient\"]}, \"bright\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"temperature\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":1000,\"step\":1}, \"h\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":360,\"step\":1},\"s\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1},\"v\":{\"min\":0,\"scale\":0,\"unit\":\"\",\"max\":255,\"step\":1}}",
+                "values": {
+                    "change_mode": {
+                        "range": [
+                            "direct",
+                            "gradient"
+                        ]
+                    },
+                    "bright": {
+                        "min": 0,
+                        "scale": 0,
+                        "unit": "",
+                        "max": 1000,
+                        "step": 1
+                    },
+                    "temperature": {
+                        "min": 0,
+                        "scale": 0,
+                        "unit": "",
+                        "max": 1000,
+                        "step": 1
+                    },
+                    "h": {
+                        "min": 0,
+                        "scale": 0,
+                        "unit": "",
+                        "max": 360,
+                        "step": 1
+                    },
+                    "s": {
+                        "min": 0,
+                        "scale": 0,
+                        "unit": "",
+                        "max": 255,
+                        "step": 1
+                    },
+                    "v": {
+                        "min": 0,
+                        "scale": 0,
+                        "unit": "",
+                        "max": 255,
+                        "step": 1
+                    }
+                }
+            }
+        },
+        "ip": "192.168.1.98",
+        "version": "3.3"
+    },
+    {
+        "name": "Nappali 2",
+        "id": "bf823bc06c4ff86edd7nbt",
+        "key": "F*}.1j-rB_?^9.y[",
+        "mac": "cc:8c:bf:3c:3c:24",
+        "uuid": "00552b52f1e2a7a2",
+        "sn": "10007025200DE8",
+        "category": "cl",
+        "product_name": "\u5377\u5e18",
+        "product_id": "iznuapjmqurazh7m",
+        "biz_type": 18,
+        "model": "FT35EWB22",
+        "sub": false,
+        "icon": "https://images.tuyaeu.com/smart/icon/ay1539067139613uuCdF/f855302355a71ec22b0fb427f589d379.jpg",
+        "mapping": {
+            "1": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close",
+                        "continue"
+                    ]
+                }
+            },
+            "2": {
+                "code": "percent_control",
+                "type": "Integer",
+                "values": {
+                    "unit": "%",
+                    "min": 0,
+                    "max": 100,
+                    "scale": 0,
+                    "step": 1
+                }
+            },
+            "3": {
+                "code": "percent_state",
+                "type": "Integer",
+                "values": {
+                    "unit": "%",
+                    "min": 0,
+                    "max": 100,
+                    "scale": 0,
+                    "step": 1
+                }
+            },
+            "5": {
+                "code": "control_back_mode",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "forward",
+                        "back"
+                    ]
+                }
+            },
+            "12": {
+                "code": "fault",
+                "type": "Bitmap",
+                "values": {
+                    "label": [
+                        "motor_fault"
+                    ]
+                }
+            }
+        },
+        "ip": "192.168.1.158",
+        "version": "3.3"
+    },
+    {
+        "name": "H\u00e1l\u00f3szoba",
+        "id": "50264471483fda1a3e44",
+        "key": "ef0f57d78e691d24",
+        "mac": "48:3f:da:1a:3e:44",
+        "uuid": "50264471483fda1a3e44",
+        "sn": "10003159000163",
+        "category": "cl",
+        "product_name": "\u7535\u52a8\u5377\u5e18",
+        "product_id": "hG8tA80YAj0YyxWP",
+        "biz_type": 18,
+        "model": "FT35EW",
+        "sub": false,
+        "icon": "https://images.tuyaeu.com/smart/icon/1537507857vjojjf6bn_0.jpg",
+        "mapping": {
+            "control": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            },
+            "107": {
+                "code": "control_back",
+                "type": "Boolean",
+                "values": {}
+            },
+            "102": {
+                "code": "percent_state",
+                "type": "Integer",
+                "values": {
+                    "unit": "%",
+                    "min": 0,
+                    "max": 100,
+                    "scale": 1,
+                    "step": 1
+                }
+            },
+            "101": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            }
+        },
+        "ip": "192.168.1.38",
+        "version": "3.3"
+    },
+    {
+        "name": "Nappali 1",
+        "id": "8418473734ab9516a360",
+        "key": "c06045916d938216",
+        "mac": "34:ab:95:16:a3:60",
+        "uuid": "8418473734ab9516a360",
+        "sn": "10004519200AD6",
+        "category": "cl",
+        "product_name": "\u7535\u52a8\u5377\u5e18",
+        "product_id": "hG8tA80YAj0YyxWP",
+        "biz_type": 18,
+        "model": "FT35EW",
+        "sub": false,
+        "icon": "https://images.tuyaeu.com/smart/icon/1537507857vjojjf6bn_0.jpg",
+        "mapping": {
+            "control": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            },
+            "107": {
+                "code": "control_back",
+                "type": "Boolean",
+                "values": {}
+            },
+            "102": {
+                "code": "percent_state",
+                "type": "Integer",
+                "values": {
+                    "unit": "%",
+                    "min": 0,
+                    "max": 100,
+                    "scale": 1,
+                    "step": 1
+                }
+            },
+            "101": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            }
+        },
+        "ip": "192.168.1.173",
+        "version": "3.3"
+    },
+    {
+        "name": "Cucek szoba",
+        "id": "8418473734ab95163fff",
+        "key": "540e57f6c8c1aa25",
+        "mac": "34:ab:95:16:3f:ff",
+        "uuid": "8418473734ab95163fff",
+        "sn": "1000451920006D",
+        "category": "cl",
+        "product_name": "\u7535\u52a8\u5377\u5e18",
+        "product_id": "hG8tA80YAj0YyxWP",
+        "biz_type": 18,
+        "model": "FT35EW",
+        "sub": false,
+        "icon": "https://images.tuyaeu.com/smart/icon/1537507857vjojjf6bn_0.jpg",
+        "mapping": {
+            "control": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            },
+            "107": {
+                "code": "control_back",
+                "type": "Boolean",
+                "values": {}
+            },
+            "102": {
+                "code": "percent_state",
+                "type": "Integer",
+                "values": {
+                    "unit": "%",
+                    "min": 0,
+                    "max": 100,
+                    "scale": 1,
+                    "step": 1
+                }
+            },
+            "101": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            }
+        },
+        "ip": "192.168.1.216",
+        "version": "3.3"
+    },
+    {
+        "name": "Nappali 3",
+        "id": "8418473734ab9516a718",
+        "key": "f51593aa4dea6bcb",
+        "mac": "34:ab:95:16:a7:18",
+        "uuid": "8418473734ab9516a718",
+        "sn": "10004519200057",
+        "category": "cl",
+        "product_name": "\u7535\u52a8\u5377\u5e18",
+        "product_id": "hG8tA80YAj0YyxWP",
+        "biz_type": 18,
+        "model": "FT35EW",
+        "sub": false,
+        "icon": "https://images.tuyaeu.com/smart/icon/1537507857vjojjf6bn_0.jpg",
+        "mapping": {
+            "control": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            },
+            "107": {
+                "code": "control_back",
+                "type": "Boolean",
+                "values": {}
+            },
+            "102": {
+                "code": "percent_state",
+                "type": "Integer",
+                "values": {
+                    "unit": "%",
+                    "min": 0,
+                    "max": 100,
+                    "scale": 1,
+                    "step": 1
+                }
+            },
+            "101": {
+                "code": "control",
+                "type": "Enum",
+                "values": {
+                    "range": [
+                        "open",
+                        "stop",
+                        "close"
+                    ]
+                }
+            }
+        },
+        "ip": "192.168.1.136",
+        "version": "3.3"
+    }
+]

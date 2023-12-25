@@ -5,19 +5,19 @@ services:
       context: ./
       dockerfile: Dockerfile
       target: development
-    image: node-docker:dev
-    container_name: node-docker
-    command: /bin/sh -c "while sleep 1000; do :; done"
+    image: shutter_app:dev
+    container_name: shutter-app
+    #command: /bin/sh -c "while sleep 1000; do :; done"
     environment:
-      - VIRTUAL_HOST=node-docker.localhost
+      - VIRTUAL_HOST=shutter.localhost
       - VIRTUAL_PORT=3000
     ports:
       - 3000:3000
     volumes:
       - ./:/app
-      - vscode-extensions-node-docker:/root/.vscode-server/extensions
+      - vscode-extensions-bun-docker:/root/.vscode-server/extensions
 volumes:
-  vscode-extensions-node-docker:
+  vscode-extensions-bun-docker:
 networks:
   proxy:
     external: true

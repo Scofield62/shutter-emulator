@@ -1,0 +1,176 @@
+{
+    "timestamp": 1698752567.3306298,
+    "devices": [
+        {
+            "id": "8418473734ab9516a718",
+            "ip": "192.168.1.136",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "hG8tA80YAj0YyxWP",
+            "name": "Nappali 3",
+            "key": "f51593aa4dea6bcb",
+            "mac": "34:ab:95:16:a7:18",
+            "token": "",
+            "wf_cfg": "",
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "devId": "8418473734ab9516a718",
+                "dps": {
+                    "101": "open",
+                    "102": 0,
+                    "107": false,
+                    "108": false
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.3"
+        },
+        {
+            "id": "bfdbc69398d9b82cb5x32u",
+            "ip": "192.168.1.98",
+            "active": 2,
+            "encrypt": true,
+            "productKey": "keys8pj5xkq8cmrm",
+            "name": "Konyha led",
+            "key": "711bb0f3b1ade519",
+            "mac": "10:d5:61:38:65:23",
+            "ability": 0,
+            "token": "",
+            "wf_cfg": "",
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "dps": {
+                    "20": false,
+                    "21": "white",
+                    "22": 31,
+                    "25": "000e0d0000000000000000c803e8",
+                    "26": 0
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.3"
+        },
+        {
+            "id": "8418473734ab95163fff",
+            "ip": "192.168.1.216",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "hG8tA80YAj0YyxWP",
+            "name": "Cucek szoba",
+            "key": "540e57f6c8c1aa25",
+            "mac": "34:ab:95:16:3f:ff",
+            "token": "",
+            "wf_cfg": "",
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "devId": "8418473734ab95163fff",
+                "dps": {
+                    "101": "stop",
+                    "102": 73,
+                    "103": 40,
+                    "107": true,
+                    "108": false
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.3"
+        },
+        {
+            "id": "50264471483fda1a3e44",
+            "ip": "192.168.1.38",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "hG8tA80YAj0YyxWP",
+            "name": "H\u00e1l\u00f3szoba",
+            "key": "ef0f57d78e691d24",
+            "mac": "48:3f:da:1a:3e:44",
+            "token": "",
+            "wf_cfg": "",
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "devId": "50264471483fda1a3e44",
+                "dps": {
+                    "101": "stop",
+                    "102": 39,
+                    "103": 40,
+                    "107": true,
+                    "108": false
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.3"
+        },
+        {
+            "id": "8418473734ab9516a360",
+            "ip": "192.168.1.173",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "hG8tA80YAj0YyxWP",
+            "name": "Nappali 1",
+            "key": "c06045916d938216",
+            "mac": "34:ab:95:16:a3:60",
+            "token": "",
+            "wf_cfg": "",
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "devId": "8418473734ab9516a360",
+                "dps": {
+                    "101": "stop",
+                    "102": 74,
+                    "107": false,
+                    "108": false
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.3"
+        },
+        {
+            "id": "bf823bc06c4ff86edd7nbt",
+            "ip": "192.168.1.158",
+            "active": 2,
+            "encrypt": true,
+            "productKey": "iznuapjmqurazh7m",
+            "name": "Nappali 2",
+            "key": "F*}.1j-rB_?^9.y[",
+            "mac": "cc:8c:bf:3c:3c:24",
+            "ability": 0,
+            "token": "",
+            "wf_cfg": "",
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "dps": {
+                    "1": "open",
+                    "2": 0,
+                    "3": 0,
+                    "5": "forward",
+                    "20": "normal",
+                    "110": true,
+                    "111": true,
+                    "112": false
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.3"
+        }
+    ]
+}
